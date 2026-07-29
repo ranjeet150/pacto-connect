@@ -5,7 +5,7 @@
   "description": "Minimal Expo app demonstrating @pacto-connect/react-native's checkout sheet, deep-link return, and escrow event hook.",
   "main": "index.ts",
   "scripts": {
-    "start": "expo start",
+    "start": "node init && expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "lint": "biome check .",
