@@ -5,8 +5,8 @@
   "description": "Marketplace storefront example using @pacto-connect/react.",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 3203",
-    "build": "vite build",
+    "dev": "node init && vite --port 3203",
+    "build": "node init && vite build",
     "preview": "vite preview --port 3203",
     "type-check": "tsc --noEmit",
     "clean": "rm -rf ../../public/examples/marketplace"

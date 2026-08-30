@@ -5,8 +5,8 @@
   "description": "Plain HTML storefront example using @pacto-connect/elements.",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 3202",
-    "build": "vite build",
+    "dev": "node init && vite --port 3202",
+    "build": "node init && vite build",
     "preview": "vite preview --port 3202",
     "clean": "rm -rf ../../public/examples/static"
   },
