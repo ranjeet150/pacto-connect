@@ -4,8 +4,8 @@
   "private": true,
   "description": "Next.js storefront example using @pacto-connect/react.",
   "scripts": {
-    "dev": "next dev --port 3201",
-    "build": "next build && node scripts/copy-out.mjs",
+    "dev": "node init && next dev --port 3201",
+    "build": "node init && next build && node scripts/copy-out.mjs",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "clean": "rm -rf .next out"
