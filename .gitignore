@@ -2,8 +2,6 @@ node_modules/
 dist/
 .turbo/
 *.tsbuildinfo
-.env
-.env.local
 .DS_Store
 coverage/
 .next/
@@ -12,3 +10,4 @@ apps/docs/public/examples/react/
 apps/docs/public/examples/static/
 apps/docs/public/examples/marketplace/
 services/connect-gateway/openapi/gateway.bundled.yaml
+config.bat
